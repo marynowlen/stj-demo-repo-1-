@@ -10,7 +10,7 @@ OUTPUT_FILE="output/combined_gapMinder.tsv"
 echo Building combined country data file
 cat data/clean/country.txt > $OUTPUT_FILE
 
-mv -v data/clean/country.cc.txt data/clean/country.cc.processed
+mv -v data/clean/country.txt data/clean/country.processed
 sleep 2
 
 cat data/clean/*.txt 
