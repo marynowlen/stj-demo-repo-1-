@@ -5,5 +5,5 @@
 for filename in "$@" 
 do
     SHORTNAME=$(echo "$filename" | sed s/.cc//)
-    echo mv -v $filename $SHORTNAME
+    mv -v $filename $SHORTNAME
 done
